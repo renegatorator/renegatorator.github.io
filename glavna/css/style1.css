@@ -1,0 +1,98 @@
+body{
+background-image:url("file:../../timer/slike/slocam.jpg");
+background-size:1000px;
+font-family:Arial, sans-serif;
+}
+
+#celbody{
+height:500px;
+width:350px;
+background-color:rgba(51, 102, 0, 0.3);
+margin:40px auto;
+position:relative;
+border-radius:20px;
+}
+
+h1{
+color:rgb(30, 60, 0);
+text-transform:uppercase;
+font-size:2em;
+text-shadow:5px 5px 15px rgb(20, 20, 20);
+text-align:center;
+font-weight:900;
+-webkit-text-fillcolor:rgb(30, 60, 0);
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color:green;
+padding:15px;
+font-family:Arial, sans-serif;
+}
+
+.opis{
+text-align:center;
+-webkit-text-fillcolor:rgb(30, 60, 0);
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color:green;
+font-family:Arial, sans-serif;
+font-size:1.2em;
+position:absolute;
+width:100%;
+bottom:300px;
+}
+
+#mi{
+position:absolute;
+bottom:15px;
+}
+
+#gumb1{
+position:absolute;
+font-weight:bolder;
+border-radius:20px;
+border:2px solid DarkGreen;
+width:150px;
+background-color:green;
+margin:0 0 0 -75px;
+box-shadow:4px 4px 10px #222222;
+left:50%;
+bottom:250px;
+text-align:center;
+}
+
+#gumb2{
+position:absolute;
+font-weight:bolder;
+border-radius:20px;
+border:2px solid DarkGreen;
+width:150px;
+background-color:green;
+margin:0 0 0 -75px;
+box-shadow:4px 4px 10px #222222;
+left:50%;
+bottom:190px;
+text-align:center;
+}
+
+a:link{
+text-decoration:none;
+color:black;
+}
+a:visited{
+color:black;
+}
+a:hover{
+color:red;
+}
+a:active{
+color:red;
+}
+
+footer{
+background-color:DarkGreen;
+text-align:center;
+width:100%;
+margin: 0 auto;
+position:absolute;
+bottom:0;
+left:0;
+border-radius:0 0 20px 20px;
+}
